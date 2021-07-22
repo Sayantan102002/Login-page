@@ -1,0 +1,78 @@
+body{
+    background-image: url(photo2.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* border: 12px solid black; */
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+.container h1{
+    /* border-bottom: 5px solid purple; */
+    margin-bottom: 20px;
+    padding-bottom: 13px;
+    /* text-align: center; */
+    font-style: italic;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    border-bottom: 2px solid purple;
+    display: inline-block;
+}
+.box{
+    width:100%;
+    border-bottom: 2px solid purple;
+    outline: none;
+    margin: 12px 0px;
+}
+.box input{
+    width: 85%;
+    outline: none;
+    color: white;
+    /* box-shadow: none; */
+    border: none;
+    margin: 12px 0px;
+    padding: 5px 0px;
+    background: transparent;
+    font-size: 20px;
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 30%;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn:hover{
+     color:purple;
+     background-color: #fff;
+}
+.box i{
+        width: 25px;
+        padding: 0px 5px;
+        float:inline-start;
+        text-align: center;
+}
+/* .heading{
+    font-size:50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: underline;
+    padding-left: 80vh;
+    padding-top: 25vh;
+    font-weight: bolder;
+} */
